@@ -1,0 +1,14 @@
+{
+  "name": "blog-app",
+  "version": "1.0.0",
+  "description": "create a blogging application from scratch",
+  "main": "models.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "stelldevv",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
+}
