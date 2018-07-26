@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome to my test blog app!</title>
+    	<meta name="Blog App Test" content="a bunch of blogposts!">
+    	<link id="favicon" rel="icon" href="https://hyperdev.com/favicon-app.ico" type="image/x-icon">
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    	<link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+    	<div class='container'>
+    		<header>
+  				<h1>All the lists</h1>
+      		</header>
+      <main>
+        <section>
+          <h2>Blog Posts</h2>
+          <form id="js-blogPost-form">
+            <label for="blogPost-entry">Add a post here!</label>
+            <input type="text" name="blogPost-entry" id="js-new-item" placeholder="Type a post here!">
+            <button type="submit">Add Post</button>
+          </form>
+
+          <ul class="blogPost-list js-blogPost-list">
+          </ul>
+        </section>
+        <hr>
+      </main>
+    </div>
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+  </body>
+</html>
