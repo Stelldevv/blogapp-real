@@ -4,11 +4,23 @@
   "description": "create a blogging application from scratch",
   "main": "models.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "stelldevv",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
     "uuid": "^3.3.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stelldevv/blogapp-real.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Stelldevv/blogapp-real/issues"
+  },
+  "homepage": "https://github.com/Stelldevv/blogapp-real#readme"
 }
